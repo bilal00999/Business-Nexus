@@ -118,3 +118,16 @@
 
 ## 📁 Folder Structure
 
+src/
+├── assets/ // Images, logos
+├── components/ // Buttons, Cards, Form Inputs
+├── context/ // Auth context
+├── layouts/ // Dashboard layout (navbar + sidebar)
+├── pages/ // All route pages
+│ ├── Auth/ // Login, Register
+│ ├── Dashboard/ // Investor & Entrepreneur dashboards
+│ ├── Profiles/ // Profile pages
+│ └── Chat/ // Chat UI
+├── services/ // Axios calls to mock API
+├── mock/ // JSON files for mock data
+└── App.jsx // Main App component
