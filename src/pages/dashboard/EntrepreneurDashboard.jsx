@@ -12,9 +12,9 @@ const EntrepreneurDashboard = () => {
 
   useEffect(() => {
     axios.get("http://localhost:4001/requests").then((res) => {
-      const myRequests = res.data.filter(
-        (r) => String(r.entrepreneurId) === String(user.id)
-      );
+      const myRequests = res.data
+        .filter((r) => String(r.entrepreneurId) === String(user.id))
+        .slice(0, 10); // Only take the first 10 requests
       setRequests(myRequests);
     });
     axios

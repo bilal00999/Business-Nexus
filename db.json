@@ -8,7 +8,7 @@
       "bio": "Driven by impact",
       "fundingNeed": "$300,000",
       "description": "Empowering users through innovation.",
-      "avatar": "/assets/user23.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "2",
@@ -18,7 +18,7 @@
       "bio": "Driven by impact",
       "fundingNeed": "$75,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user15.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "3",
@@ -28,7 +28,7 @@
       "bio": "Driven by impact",
       "fundingNeed": "$300,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user5.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "4",
@@ -38,7 +38,7 @@
       "bio": "Building the future",
       "fundingNeed": "$200,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user31.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "5",
@@ -48,7 +48,7 @@
       "bio": "Passionate innovator",
       "fundingNeed": "$50,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user38.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "6",
@@ -58,7 +58,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$300,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user29.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "7",
@@ -68,7 +68,7 @@
       "bio": "Building the future",
       "fundingNeed": "$100,000",
       "description": "Empowering users through innovation.",
-      "avatar": "/assets/user5.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "8",
@@ -78,7 +78,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$200,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user39.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "9",
@@ -88,7 +88,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$200,000",
       "description": "Empowering users through innovation.",
-      "avatar": "/assets/user27.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "10",
@@ -98,7 +98,7 @@
       "bio": "Driven by impact",
       "fundingNeed": "$100,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user30.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "11",
@@ -108,7 +108,7 @@
       "bio": "Driven by impact",
       "fundingNeed": "$100,000",
       "description": "Empowering users through innovation.",
-      "avatar": "/assets/user24.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "12",
@@ -118,7 +118,7 @@
       "bio": "Passionate innovator",
       "fundingNeed": "$300,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user1.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "13",
@@ -128,7 +128,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$50,000",
       "description": "Empowering users through innovation.",
-      "avatar": "/assets/user21.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "14",
@@ -138,7 +138,7 @@
       "bio": "Tech-savvy founder",
       "fundingNeed": "$50,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user4.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "15",
@@ -148,7 +148,7 @@
       "bio": "Passionate innovator",
       "fundingNeed": "$300,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user22.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "16",
@@ -158,7 +158,7 @@
       "bio": "Tech-savvy founder",
       "fundingNeed": "$75,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user11.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "17",
@@ -168,7 +168,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$200,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user35.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "18",
@@ -178,7 +178,7 @@
       "bio": "Focused on sustainability",
       "fundingNeed": "$75,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user31.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
     },
     {
       "id": "19",
@@ -188,7 +188,7 @@
       "bio": "Passionate innovator",
       "fundingNeed": "$50,000",
       "description": "Revolutionizing the industry with cutting-edge technology.",
-      "avatar": "/assets/user26.jpg"
+      "avatar": "/src/assets/images/girl image.jpg"
     },
     {
       "id": "20",
@@ -198,7 +198,17 @@
       "bio": "Building the future",
       "fundingNeed": "$200,000",
       "description": "Simplifying complex processes for everyone.",
-      "avatar": "/assets/user9.jpg"
+      "avatar": "/src/assets/images/boy image.jpeg"
+    },
+    {
+      "id": "ab80",
+      "name": "Bilal ahmed",
+      "startup": "",
+      "pitch": "",
+      "bio": "",
+      "fundingNeed": "",
+      "description": "",
+      "avatar": ""
     }
   ],
   "investors": [
@@ -214,7 +224,7 @@
         "EduStart",
         "GreenFuture"
       ],
-      "avatar": "/assets/user22.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "2",
@@ -228,7 +238,7 @@
         "GreenFuture",
         "EduStart"
       ],
-      "avatar": "/assets/user14.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "3",
@@ -242,7 +252,7 @@
         "SmartFarm",
         "Startup C"
       ],
-      "avatar": "/assets/user33.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "4",
@@ -256,7 +266,7 @@
         "SmartFarm",
         "Startup B"
       ],
-      "avatar": "/assets/user17.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "5",
@@ -270,7 +280,7 @@
         "EduStart",
         "GreenFuture"
       ],
-      "avatar": "/assets/user4.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "6",
@@ -284,7 +294,7 @@
         "Startup C",
         "QuickPay"
       ],
-      "avatar": "/assets/user22.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "7",
@@ -298,7 +308,7 @@
         "GreenFuture",
         "EduStart"
       ],
-      "avatar": "/assets/user28.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "8",
@@ -312,7 +322,7 @@
         "SmartFarm",
         "EduStart"
       ],
-      "avatar": "/assets/user33.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "9",
@@ -326,7 +336,7 @@
         "Startup C",
         "SmartFarm"
       ],
-      "avatar": "/assets/user13.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "10",
@@ -340,7 +350,7 @@
         "Startup C",
         "Startup A"
       ],
-      "avatar": "/assets/user25.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "11",
@@ -354,7 +364,7 @@
         "Startup A",
         "Startup B"
       ],
-      "avatar": "/assets/user6.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "12",
@@ -368,7 +378,7 @@
         "EduStart",
         "GreenFuture"
       ],
-      "avatar": "/assets/user14.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "13",
@@ -382,7 +392,7 @@
         "Startup B",
         "Startup A"
       ],
-      "avatar": "/assets/user11.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "14",
@@ -396,7 +406,7 @@
         "Startup C",
         "QuickPay"
       ],
-      "avatar": "/assets/user31.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "15",
@@ -410,7 +420,7 @@
         "EduStart",
         "SmartFarm"
       ],
-      "avatar": "/assets/user20.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "16",
@@ -424,7 +434,7 @@
         "GreenFuture",
         "GreenFuture"
       ],
-      "avatar": "/assets/user5.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "17",
@@ -438,7 +448,7 @@
         "Startup A",
         "EduStart"
       ],
-      "avatar": "/assets/user13.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "18",
@@ -452,7 +462,7 @@
         "GreenFuture",
         "Startup B"
       ],
-      "avatar": "/assets/user6.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "19",
@@ -466,7 +476,7 @@
         "SmartFarm",
         "QuickPay"
       ],
-      "avatar": "/assets/user20.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     },
     {
       "id": "20",
@@ -480,7 +490,7 @@
         "QuickPay",
         "SmartFarm"
       ],
-      "avatar": "/assets/user29.jpg"
+      "avatar": "/src/assets/images/investor image.jpg"
     }
   ],
   "requests": [
@@ -603,6 +613,60 @@
       "investorId": 11,
       "entrepreneurId": 5,
       "status": "pending"
+    },
+    {
+      "id": "21",
+      "investorId": 2,
+      "entrepreneurId": 1,
+      "status": "pending"
+    },
+    {
+      "id": "22",
+      "investorId": 4,
+      "entrepreneurId": 1,
+      "status": "accepted"
+    },
+    {
+      "id": "23",
+      "investorId": 8,
+      "entrepreneurId": 1,
+      "status": "pending"
+    },
+    {
+      "id": "24",
+      "investorId": 12,
+      "entrepreneurId": 1,
+      "status": "rejected"
+    },
+    {
+      "id": "25",
+      "investorId": 14,
+      "entrepreneurId": 1,
+      "status": "accepted"
+    },
+    {
+      "id": "26",
+      "investorId": 15,
+      "entrepreneurId": 1,
+      "status": "pending"
+    },
+    {
+      "id": "27",
+      "investorId": 18,
+      "entrepreneurId": 1,
+      "status": "accepted"
+    },
+    {
+      "id": "28",
+      "investorId": 19,
+      "entrepreneurId": 1,
+      "status": "pending"
+    },
+    {
+      "id": "29",
+      "investorId": 20,
+      "entrepreneurId": 1,
+      "status": "rejected"
     }
   ],
   "messages": [
@@ -859,11 +923,38 @@
       "timestamp": "2025-07-11T10:47:54.838Z"
     },
     {
-      "id": 1752231153310,
+      "id": "1752231153310",
       "from": "1",
       "to": 1,
       "message": "hi",
       "timestamp": "2025-07-11T10:52:33.310Z"
+    },
+    {
+      "id": 1752234500969,
+      "to": null,
+      "message": "hi i need investor",
+      "timestamp": "2025-07-11T11:48:20.969Z"
+    },
+    {
+      "id": 1752234851440,
+      "from": "1",
+      "to": 1,
+      "message": "how are you",
+      "timestamp": "2025-07-11T11:54:11.440Z"
+    },
+    {
+      "id": 1752236428830,
+      "from": "1",
+      "to": 1,
+      "message": "i am fine",
+      "timestamp": "2025-07-11T12:20:28.830Z"
+    },
+    {
+      "id": 1752236672202,
+      "from": "1",
+      "to": 3,
+      "message": "hi",
+      "timestamp": "2025-07-11T12:24:32.202Z"
     }
   ]
 }

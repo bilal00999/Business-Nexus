@@ -9,6 +9,7 @@ import ChatWindow from "./pages/chat/ChatWindow";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import "../src/index.css"; // adjust path if needed
+import DashboardLayout from "./layouts/DashboardLayout";
 
 function App() {
   return (
@@ -18,21 +19,43 @@ function App() {
       <Route path="/register" element={<Register />} />
 
       <Route element={<ProtectedRoute />}>
-        <Route path="/profile/investor/:id" element={<InvestorProfile />} />
+        <Route
+          path="/profile/investor/:id"
+          element={
+            <DashboardLayout>
+              <InvestorProfile />
+            </DashboardLayout>
+          }
+        />
         <Route
           path="/profile/entrepreneur/:id"
-          element={<EntrepreneurProfile />}
+          element={
+            <DashboardLayout>
+              <EntrepreneurProfile />
+            </DashboardLayout>
+          }
         />
       </Route>
 
       <Route element={<ProtectedRoute role="investor" />}>
-        <Route path="/dashboard/investor" element={<InvestorDashboard />} />
+        <Route
+          path="/dashboard/investor"
+          element={
+            <DashboardLayout>
+              <InvestorDashboard />
+            </DashboardLayout>
+          }
+        />
       </Route>
 
       <Route element={<ProtectedRoute role="entrepreneur" />}>
         <Route
           path="/dashboard/entrepreneur"
-          element={<EntrepreneurDashboard />}
+          element={
+            <DashboardLayout>
+              <EntrepreneurDashboard />
+            </DashboardLayout>
+          }
         />
       </Route>
 

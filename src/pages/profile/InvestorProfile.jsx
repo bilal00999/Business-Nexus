@@ -31,9 +31,32 @@ const InvestorProfile = () => {
         background: "linear-gradient(to right, #ec4899, #8b5cf6)",
       }}
     >
-      <h2 className="text-3xl font-bold text-pink-200 mb-4">{investor.name}</h2>
-
-      <p className="text-gray-700 dark:text-gray-300 mb-4">{investor.bio}</p>
+      <div className="flex items-center gap-6 mb-6">
+        {investor.avatar ? (
+          <img
+            src={investor.avatar}
+            alt={investor.name}
+            className="w-24 h-24 rounded-full object-cover border-4 border-pink-300 shadow-lg"
+            onError={(e) => {
+              e.target.style.display = "none";
+              e.target.nextSibling.style.display = "flex";
+            }}
+          />
+        ) : null}
+        <div
+          className={`w-24 h-24 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 border-4 border-pink-300 text-3xl font-bold ${
+            investor.avatar ? "hidden" : "flex"
+          }`}
+        >
+          {investor.name[0]}
+        </div>
+        <div>
+          <h2 className="text-3xl font-bold text-pink-200 mb-2">
+            {investor.name}
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300">{investor.bio}</p>
+        </div>
+      </div>
 
       <div className="space-y-3 text-gray-800 dark:text-gray-200">
         <p>
