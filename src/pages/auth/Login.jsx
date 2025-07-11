@@ -5,6 +5,7 @@ import Button from "../../components/Button";
 
 const Login = () => {
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [role, setRole] = useState("investor");
   const { login } = useAuth();
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Use string ID to match db.json
-    const userData = { id: "1", name: "Demo User", email, role };
+    const userData = { id: "1", name: "Demo User", email, password, role };
     login(userData);
     navigate(`/dashboard/${role}`);
   };
@@ -42,6 +43,19 @@ const Login = () => {
               className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 dark:bg-gray-700 dark:text-white"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium mb-1 text-gray-700 dark:text-gray-300">
+              Password
+            </label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 dark:bg-gray-700 dark:text-white"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               required
             />
           </div>
