@@ -1,0 +1,869 @@
+{
+  "entrepreneurs": [
+    {
+      "id": "1",
+      "name": "Sara Ali",
+      "startup": "EduVerse",
+      "pitch": "Cleaning robots",
+      "bio": "Driven by impact",
+      "fundingNeed": "$300,000",
+      "description": "Empowering users through innovation.",
+      "avatar": "/assets/user23.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Mariam Fatima",
+      "startup": "MedIQ",
+      "pitch": "Green energy",
+      "bio": "Driven by impact",
+      "fundingNeed": "$75,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user15.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Nimra Noor",
+      "startup": "EduVerse",
+      "pitch": "Smart irrigation",
+      "bio": "Driven by impact",
+      "fundingNeed": "$300,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user5.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Hiba Faisal",
+      "startup": "AgriSmart",
+      "pitch": "Agri bots",
+      "bio": "Building the future",
+      "fundingNeed": "$200,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user31.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Zoya Ali",
+      "startup": "TechNova",
+      "pitch": "Data automation",
+      "bio": "Passionate innovator",
+      "fundingNeed": "$50,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user38.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Fatima Zoya",
+      "startup": "AgriSmart",
+      "pitch": "Gamified learning",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$300,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user29.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Faisal Ayesha",
+      "startup": "HealthEdge",
+      "pitch": "Smart irrigation",
+      "bio": "Building the future",
+      "fundingNeed": "$100,000",
+      "description": "Empowering users through innovation.",
+      "avatar": "/assets/user5.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Nimra Rehan",
+      "startup": "MedIQ",
+      "pitch": "Health analytics",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$200,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user39.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Sara Hassan",
+      "startup": "SkillUp",
+      "pitch": "AI-driven hiring",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$200,000",
+      "description": "Empowering users through innovation.",
+      "avatar": "/assets/user27.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Jawad Ayesha",
+      "startup": "DataTrack",
+      "pitch": "Medical prediction",
+      "bio": "Driven by impact",
+      "fundingNeed": "$100,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user30.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Mariam Rehan",
+      "startup": "EduVerse",
+      "pitch": "Gamified learning",
+      "bio": "Driven by impact",
+      "fundingNeed": "$100,000",
+      "description": "Empowering users through innovation.",
+      "avatar": "/assets/user24.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Rehan Usman",
+      "startup": "EduVerse",
+      "pitch": "Gamified learning",
+      "bio": "Passionate innovator",
+      "fundingNeed": "$300,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user1.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Nimra Hassan",
+      "startup": "FarmBot",
+      "pitch": "Gamified learning",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$50,000",
+      "description": "Empowering users through innovation.",
+      "avatar": "/assets/user21.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Mariam Usman",
+      "startup": "GreenHome",
+      "pitch": "Cleaning robots",
+      "bio": "Tech-savvy founder",
+      "fundingNeed": "$50,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user4.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Anaya Faisal",
+      "startup": "GreenHome",
+      "pitch": "Gamified learning",
+      "bio": "Passionate innovator",
+      "fundingNeed": "$300,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user22.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Hassan Sara",
+      "startup": "EduVerse",
+      "pitch": "Cleaning robots",
+      "bio": "Tech-savvy founder",
+      "fundingNeed": "$75,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user11.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Jawad Noor",
+      "startup": "AgriSmart",
+      "pitch": "AI-driven hiring",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$200,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user35.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Zain Noor",
+      "startup": "GreenHome",
+      "pitch": "Green energy",
+      "bio": "Focused on sustainability",
+      "fundingNeed": "$75,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user31.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Jawad Ali",
+      "startup": "AgriSmart",
+      "pitch": "AI-driven hiring",
+      "bio": "Passionate innovator",
+      "fundingNeed": "$50,000",
+      "description": "Revolutionizing the industry with cutting-edge technology.",
+      "avatar": "/assets/user26.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Faisal Noor",
+      "startup": "AgriSmart",
+      "pitch": "Cleaning robots",
+      "bio": "Building the future",
+      "fundingNeed": "$200,000",
+      "description": "Simplifying complex processes for everyone.",
+      "avatar": "/assets/user9.jpg"
+    }
+  ],
+  "investors": [
+    {
+      "id": "1",
+      "name": "Hiba Hassan",
+      "interests": [
+        "CleanTech",
+        "EdTech"
+      ],
+      "bio": "Investor in EdTech and AI.",
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
+      "avatar": "/assets/user22.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jawad Nimra",
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in FinTech and FinTech.",
+      "portfolio": [
+        "GreenFuture",
+        "EduStart"
+      ],
+      "avatar": "/assets/user14.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Faisal Usman",
+      "interests": [
+        "FinTech",
+        "FinTech"
+      ],
+      "bio": "Investor in AI and FinTech.",
+      "portfolio": [
+        "SmartFarm",
+        "Startup C"
+      ],
+      "avatar": "/assets/user33.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Zoya Nimra",
+      "interests": [
+        "HealthTech",
+        "EdTech"
+      ],
+      "bio": "Investor in FinTech and SaaS.",
+      "portfolio": [
+        "SmartFarm",
+        "Startup B"
+      ],
+      "avatar": "/assets/user17.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Rehan Faisal",
+      "interests": [
+        "HealthTech",
+        "AI"
+      ],
+      "bio": "Investor in CleanTech and SaaS.",
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
+      "avatar": "/assets/user4.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Ayesha Jawad",
+      "interests": [
+        "FinTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in Web3 and CleanTech.",
+      "portfolio": [
+        "Startup C",
+        "QuickPay"
+      ],
+      "avatar": "/assets/user22.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Faisal Jawad",
+      "interests": [
+        "Web3",
+        "CleanTech"
+      ],
+      "bio": "Investor in Web3 and AI.",
+      "portfolio": [
+        "GreenFuture",
+        "EduStart"
+      ],
+      "avatar": "/assets/user28.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Bilal Fatima",
+      "interests": [
+        "CleanTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in AgriTech and Web3.",
+      "portfolio": [
+        "SmartFarm",
+        "EduStart"
+      ],
+      "avatar": "/assets/user33.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Anaya Faisal",
+      "interests": [
+        "Web3",
+        "HealthTech"
+      ],
+      "bio": "Investor in HealthTech and AgriTech.",
+      "portfolio": [
+        "Startup C",
+        "SmartFarm"
+      ],
+      "avatar": "/assets/user13.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Hiba Nimra",
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in Web3 and AgriTech.",
+      "portfolio": [
+        "Startup C",
+        "Startup A"
+      ],
+      "avatar": "/assets/user25.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Sara Zoya",
+      "interests": [
+        "Web3",
+        "Web3"
+      ],
+      "bio": "Investor in EdTech and CleanTech.",
+      "portfolio": [
+        "Startup A",
+        "Startup B"
+      ],
+      "avatar": "/assets/user6.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Rehan Zoya",
+      "interests": [
+        "EdTech",
+        "EdTech"
+      ],
+      "bio": "Investor in SaaS and EdTech.",
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
+      "avatar": "/assets/user14.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Fatima Nimra",
+      "interests": [
+        "Web3",
+        "CleanTech"
+      ],
+      "bio": "Investor in CleanTech and FinTech.",
+      "portfolio": [
+        "Startup B",
+        "Startup A"
+      ],
+      "avatar": "/assets/user11.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Nimra Zoya",
+      "interests": [
+        "SaaS",
+        "HealthTech"
+      ],
+      "bio": "Investor in EdTech and HealthTech.",
+      "portfolio": [
+        "Startup C",
+        "QuickPay"
+      ],
+      "avatar": "/assets/user31.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Noor Ali",
+      "interests": [
+        "SaaS",
+        "EdTech"
+      ],
+      "bio": "Investor in AgriTech and FinTech.",
+      "portfolio": [
+        "EduStart",
+        "SmartFarm"
+      ],
+      "avatar": "/assets/user20.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Omar Nimra",
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in AgriTech and SaaS.",
+      "portfolio": [
+        "GreenFuture",
+        "GreenFuture"
+      ],
+      "avatar": "/assets/user5.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Ali Mariam",
+      "interests": [
+        "AgriTech",
+        "EdTech"
+      ],
+      "bio": "Investor in HealthTech and FinTech.",
+      "portfolio": [
+        "Startup A",
+        "EduStart"
+      ],
+      "avatar": "/assets/user13.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Ayesha Fatima",
+      "interests": [
+        "EdTech",
+        "HealthTech"
+      ],
+      "bio": "Investor in CleanTech and Web3.",
+      "portfolio": [
+        "GreenFuture",
+        "Startup B"
+      ],
+      "avatar": "/assets/user6.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Hassan Mariam",
+      "interests": [
+        "EdTech",
+        "AgriTech"
+      ],
+      "bio": "Investor in AgriTech and HealthTech.",
+      "portfolio": [
+        "SmartFarm",
+        "QuickPay"
+      ],
+      "avatar": "/assets/user20.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Faisal Tariq",
+      "interests": [
+        "AI",
+        "AI"
+      ],
+      "bio": "Investor in EdTech and CleanTech.",
+      "portfolio": [
+        "QuickPay",
+        "SmartFarm"
+      ],
+      "avatar": "/assets/user29.jpg"
+    }
+  ],
+  "requests": [
+    {
+      "id": "1",
+      "investorId": 11,
+      "entrepreneurId": 13,
+      "status": "pending"
+    },
+    {
+      "id": "2",
+      "investorId": 3,
+      "entrepreneurId": 5,
+      "status": "rejected"
+    },
+    {
+      "id": "3",
+      "investorId": 2,
+      "entrepreneurId": 6,
+      "status": "accepted"
+    },
+    {
+      "id": "4",
+      "investorId": 10,
+      "entrepreneurId": 10,
+      "status": "rejected"
+    },
+    {
+      "id": "5",
+      "investorId": 9,
+      "entrepreneurId": 1,
+      "status": "accepted"
+    },
+    {
+      "id": "6",
+      "investorId": 7,
+      "entrepreneurId": 1,
+      "status": "rejected"
+    },
+    {
+      "id": "7",
+      "investorId": 16,
+      "entrepreneurId": 17,
+      "status": "pending"
+    },
+    {
+      "id": "8",
+      "investorId": 11,
+      "entrepreneurId": 15,
+      "status": "rejected"
+    },
+    {
+      "id": "9",
+      "investorId": 16,
+      "entrepreneurId": 12,
+      "status": "rejected"
+    },
+    {
+      "id": "10",
+      "investorId": 18,
+      "entrepreneurId": 5,
+      "status": "pending"
+    },
+    {
+      "id": "11",
+      "investorId": 6,
+      "entrepreneurId": 7,
+      "status": "accepted"
+    },
+    {
+      "id": "12",
+      "investorId": 19,
+      "entrepreneurId": 11,
+      "status": "accepted"
+    },
+    {
+      "id": "13",
+      "investorId": 16,
+      "entrepreneurId": 3,
+      "status": "rejected"
+    },
+    {
+      "id": "14",
+      "investorId": 1,
+      "entrepreneurId": 15,
+      "status": "rejected"
+    },
+    {
+      "id": "15",
+      "investorId": 6,
+      "entrepreneurId": 10,
+      "status": "pending"
+    },
+    {
+      "id": "16",
+      "investorId": 11,
+      "entrepreneurId": 14,
+      "status": "rejected"
+    },
+    {
+      "id": "17",
+      "investorId": 17,
+      "entrepreneurId": 16,
+      "status": "accepted"
+    },
+    {
+      "id": "18",
+      "investorId": 17,
+      "entrepreneurId": 3,
+      "status": "rejected"
+    },
+    {
+      "id": "19",
+      "investorId": 3,
+      "entrepreneurId": 4,
+      "status": "rejected"
+    },
+    {
+      "id": "20",
+      "investorId": 11,
+      "entrepreneurId": 5,
+      "status": "pending"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "from": 10,
+      "to": 11,
+      "message": "Message 1 from 10 to 11",
+      "timestamp": "2025-07-10T11:15:53.341516"
+    },
+    {
+      "id": "2",
+      "from": 12,
+      "to": 11,
+      "message": "Message 2 from 12 to 11",
+      "timestamp": "2025-07-10T11:16:53.341516"
+    },
+    {
+      "id": "3",
+      "from": 19,
+      "to": 15,
+      "message": "Message 3 from 19 to 15",
+      "timestamp": "2025-07-10T11:17:53.341516"
+    },
+    {
+      "id": "4",
+      "from": 19,
+      "to": 9,
+      "message": "Message 4 from 19 to 9",
+      "timestamp": "2025-07-10T11:18:53.341516"
+    },
+    {
+      "id": "5",
+      "from": 3,
+      "to": 15,
+      "message": "Message 5 from 3 to 15",
+      "timestamp": "2025-07-10T11:19:53.341516"
+    },
+    {
+      "id": "6",
+      "from": 11,
+      "to": 1,
+      "message": "Message 6 from 11 to 1",
+      "timestamp": "2025-07-10T11:20:53.341516"
+    },
+    {
+      "id": "7",
+      "from": 15,
+      "to": 4,
+      "message": "Message 7 from 15 to 4",
+      "timestamp": "2025-07-10T11:21:53.341516"
+    },
+    {
+      "id": "8",
+      "from": 10,
+      "to": 15,
+      "message": "Message 8 from 10 to 15",
+      "timestamp": "2025-07-10T11:22:53.341516"
+    },
+    {
+      "id": "9",
+      "from": 13,
+      "to": 3,
+      "message": "Message 9 from 13 to 3",
+      "timestamp": "2025-07-10T11:23:53.341516"
+    },
+    {
+      "id": "10",
+      "from": 3,
+      "to": 16,
+      "message": "Message 10 from 3 to 16",
+      "timestamp": "2025-07-10T11:24:53.341516"
+    },
+    {
+      "id": "11",
+      "from": 15,
+      "to": 17,
+      "message": "Message 11 from 15 to 17",
+      "timestamp": "2025-07-10T11:25:53.341516"
+    },
+    {
+      "id": "12",
+      "from": 14,
+      "to": 2,
+      "message": "Message 12 from 14 to 2",
+      "timestamp": "2025-07-10T11:26:53.341516"
+    },
+    {
+      "id": "13",
+      "from": 18,
+      "to": 14,
+      "message": "Message 13 from 18 to 14",
+      "timestamp": "2025-07-10T11:27:53.341516"
+    },
+    {
+      "id": "14",
+      "from": 10,
+      "to": 4,
+      "message": "Message 14 from 10 to 4",
+      "timestamp": "2025-07-10T11:28:53.341516"
+    },
+    {
+      "id": "15",
+      "from": 10,
+      "to": 3,
+      "message": "Message 15 from 10 to 3",
+      "timestamp": "2025-07-10T11:29:53.341516"
+    },
+    {
+      "id": "16",
+      "from": 13,
+      "to": 19,
+      "message": "Message 16 from 13 to 19",
+      "timestamp": "2025-07-10T11:30:53.341516"
+    },
+    {
+      "id": "17",
+      "from": 10,
+      "to": 10,
+      "message": "Message 17 from 10 to 10",
+      "timestamp": "2025-07-10T11:31:53.341516"
+    },
+    {
+      "id": "18",
+      "from": 13,
+      "to": 15,
+      "message": "Message 18 from 13 to 15",
+      "timestamp": "2025-07-10T11:32:53.341516"
+    },
+    {
+      "id": "19",
+      "from": 5,
+      "to": 9,
+      "message": "Message 19 from 5 to 9",
+      "timestamp": "2025-07-10T11:33:53.341516"
+    },
+    {
+      "id": "20",
+      "from": 17,
+      "to": 6,
+      "message": "Message 20 from 17 to 6",
+      "timestamp": "2025-07-10T11:34:53.341516"
+    },
+    {
+      "id": "1752146218913",
+      "from": 1,
+      "to": 3,
+      "message": "hi",
+      "timestamp": "2025-07-10T11:16:58.913Z"
+    },
+    {
+      "id": "1752146740667",
+      "from": 1,
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-10T11:25:40.667Z"
+    },
+    {
+      "id": "1752147007087",
+      "from": 1,
+      "to": 1,
+      "message": "hello",
+      "timestamp": "2025-07-10T11:30:07.087Z"
+    },
+    {
+      "id": "1752147234965",
+      "from": 1,
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-10T11:33:54.965Z"
+    },
+    {
+      "id": "1752147326492",
+      "from": 1,
+      "to": 2,
+      "message": "hi",
+      "timestamp": "2025-07-10T11:35:26.492Z"
+    },
+    {
+      "id": "1752147352670",
+      "from": 1,
+      "to": 1,
+      "message": "hello",
+      "timestamp": "2025-07-10T11:35:52.670Z"
+    },
+    {
+      "id": "1752147490237",
+      "from": 1,
+      "to": 2,
+      "message": "hello",
+      "timestamp": "2025-07-10T11:38:10.237Z"
+    },
+    {
+      "id": "1752147499789",
+      "from": 1,
+      "to": 2,
+      "message": "how are you",
+      "timestamp": "2025-07-10T11:38:19.789Z"
+    },
+    {
+      "id": "1752147528773",
+      "from": 1,
+      "to": 2,
+      "message": "i want work with you",
+      "timestamp": "2025-07-10T11:38:48.773Z"
+    },
+    {
+      "id": "1752147544427",
+      "from": 1,
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-10T11:39:04.427Z"
+    },
+    {
+      "id": "1752150875841",
+      "from": 1,
+      "to": 2,
+      "message": "ali ahmed",
+      "timestamp": "2025-07-10T12:34:35.841Z"
+    },
+    {
+      "id": "1752151320278",
+      "from": 1,
+      "to": 1,
+      "message": "ho",
+      "timestamp": "2025-07-10T12:42:00.278Z"
+    },
+    {
+      "id": "1752152654472",
+      "from": 1,
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-10T13:04:14.472Z"
+    },
+    {
+      "id": "1752153038446",
+      "from": "1",
+      "to": 2,
+      "message": "hi",
+      "timestamp": "2025-07-10T13:10:38.446Z"
+    },
+    {
+      "id": "1752153071275",
+      "from": "1",
+      "to": 1,
+      "message": "ok",
+      "timestamp": "2025-07-10T13:11:11.275Z"
+    },
+    {
+      "id": "1752230874838",
+      "from": "1",
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-11T10:47:54.838Z"
+    },
+    {
+      "id": 1752231153310,
+      "from": "1",
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-11T10:52:33.310Z"
+    }
+  ]
+}
