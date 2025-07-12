@@ -1,16 +1,13 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../../context/useAuth";
-import { useDarkMode } from "../../context/useDarkMode";
 import Button from "../../components/Button";
-import { FiSun, FiMoon } from "react-icons/fi";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("investor");
   const { login } = useAuth();
-  const { dark, toggleDark } = useDarkMode();
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -31,19 +28,7 @@ const Login = () => {
       <div className="absolute top-6 left-8">
         <h1 className="text-4xl font-bold text-pink-200">Business Nexus</h1>
       </div>
-      <div className="absolute top-6 right-8">
-        <button
-          onClick={toggleDark}
-          className="p-2 rounded-md text-pink-200 hover:bg-pink-100 hover:bg-opacity-20 transition"
-          aria-label="Toggle dark mode"
-        >
-          {dark ? (
-            <FiSun className="w-6 h-6" />
-          ) : (
-            <FiMoon className="w-6 h-6" />
-          )}
-        </button>
-      </div>
+
       <div className="w-full max-w-md bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
         <h2 className="text-3xl font-bold text-center text-pink-500 mb-6">
           Welcome Back

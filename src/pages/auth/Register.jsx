@@ -4,9 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import InputField from "../../components/InputField";
 import { useAuth } from "../../context/useAuth";
-import { useDarkMode } from "../../context/useDarkMode";
 import api from "../../services/api";
-import { FiSun, FiMoon } from "react-icons/fi";
 
 const Register = () => {
   const {
@@ -16,7 +14,6 @@ const Register = () => {
   } = useForm();
   const navigate = useNavigate();
   const { login } = useAuth();
-  const { dark, toggleDark } = useDarkMode();
 
   const onSubmit = async (data) => {
     if (data.role === "entrepreneur") {
@@ -62,19 +59,6 @@ const Register = () => {
         background: "linear-gradient(to right, #ec4899, #8b5cf6)",
       }}
     >
-      <div className="absolute top-4 right-4">
-        <button
-          onClick={toggleDark}
-          className="p-2 rounded-md text-pink-200 hover:bg-pink-100 hover:bg-opacity-20 transition"
-          aria-label="Toggle dark mode"
-        >
-          {dark ? (
-            <FiSun className="w-5 h-5" />
-          ) : (
-            <FiMoon className="w-5 h-5" />
-          )}
-        </button>
-      </div>
       <h2 className="text-3xl font-bold text-center text-pink-200 mb-6">
         Create Your Account
       </h2>
