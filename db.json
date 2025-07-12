@@ -215,161 +215,281 @@
     {
       "id": "1",
       "name": "Hiba Hassan",
-      "interests": ["CleanTech", "EdTech"],
+      "interests": [
+        "CleanTech",
+        "EdTech"
+      ],
       "bio": "Investor in EdTech and AI.",
-      "portfolio": ["EduStart", "GreenFuture"],
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "2",
       "name": "Jawad Nimra",
-      "interests": ["HealthTech", "AgriTech"],
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
       "bio": "Investor in FinTech and FinTech.",
-      "portfolio": ["GreenFuture", "EduStart"],
+      "portfolio": [
+        "GreenFuture",
+        "EduStart"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "3",
       "name": "Faisal Usman",
-      "interests": ["FinTech", "FinTech"],
+      "interests": [
+        "FinTech",
+        "FinTech"
+      ],
       "bio": "Investor in AI and FinTech.",
-      "portfolio": ["SmartFarm", "Startup C"],
+      "portfolio": [
+        "SmartFarm",
+        "Startup C"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "4",
       "name": "Zoya Nimra",
-      "interests": ["HealthTech", "EdTech"],
+      "interests": [
+        "HealthTech",
+        "EdTech"
+      ],
       "bio": "Investor in FinTech and SaaS.",
-      "portfolio": ["SmartFarm", "Startup B"],
+      "portfolio": [
+        "SmartFarm",
+        "Startup B"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "5",
       "name": "Rehan Faisal",
-      "interests": ["HealthTech", "AI"],
+      "interests": [
+        "HealthTech",
+        "AI"
+      ],
       "bio": "Investor in CleanTech and SaaS.",
-      "portfolio": ["EduStart", "GreenFuture"],
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "6",
       "name": "Ayesha Jawad",
-      "interests": ["FinTech", "AgriTech"],
+      "interests": [
+        "FinTech",
+        "AgriTech"
+      ],
       "bio": "Investor in Web3 and CleanTech.",
-      "portfolio": ["Startup C", "QuickPay"],
+      "portfolio": [
+        "Startup C",
+        "QuickPay"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "7",
       "name": "Faisal Jawad",
-      "interests": ["Web3", "CleanTech"],
+      "interests": [
+        "Web3",
+        "CleanTech"
+      ],
       "bio": "Investor in Web3 and AI.",
-      "portfolio": ["GreenFuture", "EduStart"],
+      "portfolio": [
+        "GreenFuture",
+        "EduStart"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "8",
       "name": "Bilal Fatima",
-      "interests": ["CleanTech", "AgriTech"],
+      "interests": [
+        "CleanTech",
+        "AgriTech"
+      ],
       "bio": "Investor in AgriTech and Web3.",
-      "portfolio": ["SmartFarm", "EduStart"],
+      "portfolio": [
+        "SmartFarm",
+        "EduStart"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "9",
       "name": "Anaya Faisal",
-      "interests": ["Web3", "HealthTech"],
+      "interests": [
+        "Web3",
+        "HealthTech"
+      ],
       "bio": "Investor in HealthTech and AgriTech.",
-      "portfolio": ["Startup C", "SmartFarm"],
+      "portfolio": [
+        "Startup C",
+        "SmartFarm"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "10",
       "name": "Hiba Nimra",
-      "interests": ["HealthTech", "AgriTech"],
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
       "bio": "Investor in Web3 and AgriTech.",
-      "portfolio": ["Startup C", "Startup A"],
+      "portfolio": [
+        "Startup C",
+        "Startup A"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "11",
       "name": "Sara Zoya",
-      "interests": ["Web3", "Web3"],
+      "interests": [
+        "Web3",
+        "Web3"
+      ],
       "bio": "Investor in EdTech and CleanTech.",
-      "portfolio": ["Startup A", "Startup B"],
+      "portfolio": [
+        "Startup A",
+        "Startup B"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "12",
       "name": "Rehan Zoya",
-      "interests": ["EdTech", "EdTech"],
+      "interests": [
+        "EdTech",
+        "EdTech"
+      ],
       "bio": "Investor in SaaS and EdTech.",
-      "portfolio": ["EduStart", "GreenFuture"],
+      "portfolio": [
+        "EduStart",
+        "GreenFuture"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "13",
       "name": "Fatima Nimra",
-      "interests": ["Web3", "CleanTech"],
+      "interests": [
+        "Web3",
+        "CleanTech"
+      ],
       "bio": "Investor in CleanTech and FinTech.",
-      "portfolio": ["Startup B", "Startup A"],
+      "portfolio": [
+        "Startup B",
+        "Startup A"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "14",
       "name": "Nimra Zoya",
-      "interests": ["SaaS", "HealthTech"],
+      "interests": [
+        "SaaS",
+        "HealthTech"
+      ],
       "bio": "Investor in EdTech and HealthTech.",
-      "portfolio": ["Startup C", "QuickPay"],
+      "portfolio": [
+        "Startup C",
+        "QuickPay"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "15",
       "name": "Noor Ali",
-      "interests": ["SaaS", "EdTech"],
+      "interests": [
+        "SaaS",
+        "EdTech"
+      ],
       "bio": "Investor in AgriTech and FinTech.",
-      "portfolio": ["EduStart", "SmartFarm"],
+      "portfolio": [
+        "EduStart",
+        "SmartFarm"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "16",
       "name": "Omar Nimra",
-      "interests": ["HealthTech", "AgriTech"],
+      "interests": [
+        "HealthTech",
+        "AgriTech"
+      ],
       "bio": "Investor in AgriTech and SaaS.",
-      "portfolio": ["GreenFuture", "GreenFuture"],
+      "portfolio": [
+        "GreenFuture",
+        "GreenFuture"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "17",
       "name": "Ali Mariam",
-      "interests": ["AgriTech", "EdTech"],
+      "interests": [
+        "AgriTech",
+        "EdTech"
+      ],
       "bio": "Investor in HealthTech and FinTech.",
-      "portfolio": ["Startup A", "EduStart"],
+      "portfolio": [
+        "Startup A",
+        "EduStart"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "18",
       "name": "Ayesha Fatima",
-      "interests": ["EdTech", "HealthTech"],
+      "interests": [
+        "EdTech",
+        "HealthTech"
+      ],
       "bio": "Investor in CleanTech and Web3.",
-      "portfolio": ["GreenFuture", "Startup B"],
+      "portfolio": [
+        "GreenFuture",
+        "Startup B"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "19",
       "name": "Hassan Mariam",
-      "interests": ["EdTech", "AgriTech"],
+      "interests": [
+        "EdTech",
+        "AgriTech"
+      ],
       "bio": "Investor in AgriTech and HealthTech.",
-      "portfolio": ["SmartFarm", "QuickPay"],
+      "portfolio": [
+        "SmartFarm",
+        "QuickPay"
+      ],
       "avatar": "/investor-image.jpg"
     },
     {
       "id": "20",
       "name": "Faisal Tariq",
-      "interests": ["AI", "AI"],
+      "interests": [
+        "AI",
+        "AI"
+      ],
       "bio": "Investor in EdTech and CleanTech.",
-      "portfolio": ["QuickPay", "SmartFarm"],
+      "portfolio": [
+        "QuickPay",
+        "SmartFarm"
+      ],
       "avatar": "/investor-image.jpg"
     }
   ],
@@ -835,6 +955,27 @@
       "to": 3,
       "message": "hi",
       "timestamp": "2025-07-11T12:24:32.202Z"
+    },
+    {
+      "id": 1752302816696,
+      "from": "1",
+      "to": 2,
+      "message": "hello",
+      "timestamp": "2025-07-12T06:46:56.696Z"
+    },
+    {
+      "id": 1752302832956,
+      "from": "1",
+      "to": 1,
+      "message": "hi",
+      "timestamp": "2025-07-12T06:47:12.956Z"
+    },
+    {
+      "id": 1752302881725,
+      "from": "1",
+      "to": 1,
+      "message": "hu",
+      "timestamp": "2025-07-12T06:48:01.725Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001", // Change to your mock API endpoint if needed
+  baseURL: "https://business-nexus-production.up.railway.app", // Production API endpoint
 });
 
 export default api;
