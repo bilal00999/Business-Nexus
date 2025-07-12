@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
-const ToggleDarkMode = () => {
+const DarkModeContext = createContext();
+
+export const DarkModeProvider = ({ children }) => {
   const [dark, setDark] = useState(
     () => localStorage.getItem("theme") === "dark"
   );
@@ -10,14 +12,19 @@ const ToggleDarkMode = () => {
     localStorage.setItem("theme", dark ? "dark" : "light");
   }, [dark]);
 
+  const toggleDark = () => setDark(!dark);
+
   return (
-    <button
-      onClick={() => setDark(!dark)}
-      className="p-2 text-sm border rounded mt-2"
-    >
-      {dark ? "🌙 Dark On" : "☀️ Light On"}
-    </button>
+    <DarkModeContext.Provider value={{ dark, toggleDark }}>
+      {children}
+    </DarkModeContext.Provider>
   );
 };
 
-export default ToggleDarkMode;
+export const useDarkMode = () => {
+  const context = useContext(DarkModeContext);
+  if (!context) {
+    throw new Error("useDarkMode must be used within a DarkModeProvider");
+  }
+  return context;
+};

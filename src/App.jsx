@@ -59,7 +59,14 @@ function App() {
         />
       </Route>
 
-      <Route path="/chat/:userId" element={<ChatWindow />} />
+      <Route
+        path="/chat/:userId"
+        element={
+          <DashboardLayout>
+            <ChatWindow />
+          </DashboardLayout>
+        }
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

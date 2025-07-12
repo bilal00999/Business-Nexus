@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/useAuth";
-import { FiMenu, FiX } from "react-icons/fi";
+import { useDarkMode } from "../context/useDarkMode";
+import { FiMenu, FiX, FiSun, FiMoon } from "react-icons/fi";
 
 const DashboardLayout = ({ children }) => {
   const { user, logout } = useAuth();
+  const { dark, toggleDark } = useDarkMode();
   const location = useLocation();
   const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -53,12 +55,25 @@ const DashboardLayout = ({ children }) => {
             Business Nexus
           </span>
         </div>
-        <button
-          onClick={logout}
-          className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md font-medium transition"
-        >
-          Logout
-        </button>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={toggleDark}
+            className="p-2 rounded-md text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700 transition"
+            aria-label="Toggle dark mode"
+          >
+            {dark ? (
+              <FiSun className="w-5 h-5" />
+            ) : (
+              <FiMoon className="w-5 h-5" />
+            )}
+          </button>
+          <button
+            onClick={logout}
+            className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md font-medium transition"
+          >
+            Logout
+          </button>
+        </div>
       </nav>
 
       {/* Sidebar */}
