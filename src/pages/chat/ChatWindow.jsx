@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { useAuth } from "../../context/useAuth";
-import axios from "axios";
+import api from "../../services/api";
 
 const ChatWindow = () => {
   const { user } = useAuth();
@@ -17,8 +17,8 @@ const ChatWindow = () => {
     if (!user) return;
 
     // Get chat user
-    axios
-      .get(`http://localhost:4001/entrepreneurs/${userId}`)
+    api
+      .get(`/entrepreneurs/${userId}`)
       .then((res) => setChatUser(res.data))
       .catch(() => {});
 
@@ -28,7 +28,7 @@ const ChatWindow = () => {
       setMessages(JSON.parse(localData));
     } else {
       // Fallback to mock API
-      axios.get("http://localhost:4001/messages").then((res) => {
+      api.get("/messages").then((res) => {
         const filtered = res.data.filter(
           (m) =>
             (m.from === user.id && m.to === parseInt(userId)) ||
@@ -74,7 +74,7 @@ const ChatWindow = () => {
     localStorage.setItem(LOCAL_KEY, JSON.stringify(updated));
 
     // Simulate saving to server
-    axios.post("http://localhost:4001/messages", newMsg).catch(console.error);
+    api.post("/messages", newMsg).catch(console.error);
   };
 
   return (

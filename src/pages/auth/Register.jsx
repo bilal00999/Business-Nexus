@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import InputField from "../../components/InputField";
 import { useAuth } from "../../context/useAuth";
-import axios from "axios";
+import api from "../../services/api";
 
 const Register = () => {
   const {
@@ -19,7 +19,7 @@ const Register = () => {
     if (data.role === "entrepreneur") {
       // POST to /entrepreneurs
       try {
-        const res = await axios.post("http://localhost:4001/entrepreneurs", {
+        const res = await api.post("/entrepreneurs", {
           name: data.name,
           startup: "", // or ask in form
           pitch: "",

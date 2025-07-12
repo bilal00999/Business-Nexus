@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../../services/api";
 
 const EntrepreneurProfile = () => {
   const { id } = useParams();
@@ -8,8 +8,8 @@ const EntrepreneurProfile = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:4001/entrepreneurs/${id}`)
+    api
+      .get(`/entrepreneurs/${id}`)
       .then((res) => {
         setEntrepreneur(res.data);
         setError(null);

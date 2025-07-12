@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../../services/api";
 import { useAuth } from "../../context/useAuth";
 import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
@@ -11,15 +11,13 @@ const EntrepreneurDashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:4001/requests").then((res) => {
+    api.get("/requests").then((res) => {
       const myRequests = res.data
         .filter((r) => String(r.entrepreneurId) === String(user.id))
         .slice(0, 10); // Only take the first 10 requests
       setRequests(myRequests);
     });
-    axios
-      .get("http://localhost:4001/investors")
-      .then((res) => setInvestors(res.data));
+    api.get("/investors").then((res) => setInvestors(res.data));
   }, [user.id]);
 
   const getInvestor = (id) => investors.find((i) => i.id === String(id));

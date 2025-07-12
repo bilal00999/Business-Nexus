@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../../services/api";
 
 const InvestorProfile = () => {
   const { id } = useParams();
@@ -8,8 +8,8 @@ const InvestorProfile = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios
-      .get(`http://localhost:4001/investors/${id}`)
+    api
+      .get(`/investors/${id}`)
       .then((res) => {
         setInvestor(res.data);
         setError(null);

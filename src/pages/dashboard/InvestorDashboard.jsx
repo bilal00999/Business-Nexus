@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../../services/api";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 
@@ -8,8 +8,8 @@ const InvestorDashboard = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios
-      .get("http://localhost:4001/entrepreneurs")
+    api
+      .get("/entrepreneurs")
       .then((res) => setEntrepreneurs(res.data))
       .catch(() => {});
   }, []);
