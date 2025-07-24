@@ -20,7 +20,7 @@
 
 ## 🔗 Live Demo
 
-🌐 [View App Live](https://your-deployment-link.vercel.app)
+🌐 https://business-nexus-livid.vercel.app/
 
 ---
 
